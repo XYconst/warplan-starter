@@ -1,0 +1,15 @@
+{
+  "brief": "Monday. One thing moves the week: the client proposal goes out by Wednesday.",
+  "wins": {
+    "2026-10-05": ["Proposal draft sent for review", "Weekly report delivered", "Workout done"]
+  },
+  "fronts": [
+    {"id": "f_proposal", "order": 10, "status": "live", "due": "2026-10-07", "name": "Client proposal",
+     "why": "One or two sentences of context with the numbers that matter.",
+     "next": "The one concrete move for Monday morning.",
+     "steps": [{"t": "Outline", "done": false}, {"t": "Pricing table", "done": false}, {"t": "Send", "done": false}]}
+  ],
+  "flags": [
+    {"id": "g_invoice", "kind": "money", "due": "2026-10-10", "text": "Invoice for September goes out."}
+  ]
+}

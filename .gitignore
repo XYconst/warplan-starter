@@ -1,0 +1,17 @@
+.env
+.env.local
+*.env
+!*.env.example
+.vercel
+node_modules
+web/lib/page.js
+warplan.html
+my-board.json
+*.log
+comms/last-prompt.txt
+comms/last-result.json
+today/recap-prompt.txt
+today/recap-result.json
+today/recap-last-plan.json
+today/seed.json
+.DS_Store
